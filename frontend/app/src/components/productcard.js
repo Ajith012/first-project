@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom';
 
 export default function Productcard({product})
 {
-    return <div className="col-sm-12 col-md-6 col-lg-3 my-3">
+    return <div className="col-sm-12 col-md-6 col-lg-3 my-3" style={{display:"flex",width:"220px",height:"320px" }}>
           <div className="card p-3 rounded">
             <img
               className="card-img-top mx-auto"

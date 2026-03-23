@@ -16,8 +16,8 @@ export default function Home()
     
     <h1 id="products_heading">Latest Products</h1>
 
-    <section id="products" className="container mt-5">
-      <div className="row">
+    <section id="products" className="container mt-5" >
+      <div className="row" style={{display:"flex",gap:"20px",justifyContent:"flex-start",flexWrap:"wrap"}} >
        {products.map(product => <Productcard product={product}/> )}
       </div>
     </section>
